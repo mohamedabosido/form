@@ -1,0 +1,162 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    color: #585858;
+    background-color: #fafafa;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: #4d61fc;
+}
+strong{
+    color: #3b3663;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.tittle{
+    color: #3b3663;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    
+}
+
+.welcome-section{
+    float: left;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    text-align: center;
+}
+.create-section{
+    float: right;
+    background-color: #fff;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    text-align: center;
+}
+.welcome-section .fa ,.create-section .fa{
+    color: #4d61fc;
+}
+fieldset{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.form .form-row .fa{
+    font-size: 16px;
+    position: absolute;
+    margin-right: 1000px;
+    color: #696687;
+    opacity: .3;
+    left: 41%;
+    margin-top: 20px;
+}
+.form .form-row .input-form{
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: #fffefe;
+    border: 0;
+    margin: auto;
+    margin: 10px;
+    color: #354052;
+    border-bottom: 2px solid #EEE;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+.form-row-bottom{
+    margin: 15px 0 ;
+}
+.form-check{
+    display: block;
+    color: #696687;
+    font-size: 18px;
+    opacity: .7;
+    margin-left: 25px;
+    float: left;
+}
+
+.forgot{
+    color: #4d61fc;
+    font-size: 18px;
+    text-decoration: none;
+   margin-left: 40px;
+   transition: all 0.5s;
+}
+.forgot:hover{
+    color: #071ec9;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    align-items: center;
+    background: #4d61fc;
+    border-radius: 6px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 45px;
+    font-weight: 600;
+    transition: all .5s;
+}
+.btn:hover{
+    background-color: #223bf8;
+    margin-top: 17px ;
+}
+
+.form-row-button .btn .fa{
+    color: #fff;
+}
+.create-section .form .form-row .fa{
+    left: 80%;
+
+}
+.create-account{
+    border-top: 1px solid #e2e2e2;
+    margin-top: 100px;
+    padding-top: 20px;
+    text-align: center;
+    color: #696687;
+    font-size: 18px;
+    opacity: .8;
+}
+.create-section .form .social-media .fb span{
+    color: #3b5998;
+    margin: 0 5px;
+}
+.create-section .form .social-media .tw span{
+    color: #1da1f2;
+    margin: 0 5px;
+}
+.create-section .form .social-media .pi span{
+    color: #e60023;
+    margin: 0 5px;
+}
+.copy-right{
+    color: #696687;
+    font-size: 18px;
+    opacity: .8;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 65%;
+}
